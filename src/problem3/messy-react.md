@@ -53,7 +53,7 @@ return (
 ```
 
 ### 4. Unused Variable
-
+❌ Bad
 ```
   const { children, ...rest, classes } = props; // unused children
 ```
@@ -102,6 +102,7 @@ const formattedBalances = sortedBalances.map((balance: WalletBalance) => {
 ### 7. Missing Variable Check
 
 ```typescript
+❌ Bad
 const usdValue = prices[balance.currency] * balance.amount
 ```
 
