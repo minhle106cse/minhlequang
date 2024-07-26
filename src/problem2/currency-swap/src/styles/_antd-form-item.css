@@ -1,0 +1,10 @@
+/* Form.Item */
+.antd-form-item .ant-form-item-label label {
+	font-size: 1.6rem;
+	color: var(--color-primary-dark);
+	font-weight: 600;
+}
+
+.antd-form-item .ant-form-item-explain-error {
+	margin-left: 2rem;
+}

@@ -1,0 +1,29 @@
+/* Select */
+.ant-select.antd-select {
+	height: unset;
+}
+.ant-select.antd-select .ant-select-selector {
+	padding: 1rem 2rem;
+	border-radius: 9999px;
+}
+
+.ant-select.antd-select .ant-select-selection-item {
+	font-size: 1.6rem;
+	display: flex;
+	align-items: center;
+	gap: 0.75rem;
+}
+
+.ant-select.antd-select .ant-select-selection-placeholder {
+	font-size: 1.6rem;
+}
+
+.ant-select.antd-select .ant-select-arrow {
+	right: 15px;
+}
+
+.ant-select-item-option-content {
+	display: flex;
+	align-items: center;
+	gap: 0.75rem;
+}
