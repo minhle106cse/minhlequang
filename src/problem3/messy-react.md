@@ -190,7 +190,7 @@ const WalletPage: React.FC<Props> = (props: Props) => {
 	)
 
 	return (
-		<div {...rest}>
+		<div {...rest} className={classes.component}>
 			{rows}
 			{children}
 		</div>
